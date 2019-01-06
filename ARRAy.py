@@ -38,10 +38,10 @@ def hourglassSum(arr):
                 if column == 3:
                     j = j-2
                 
-                print(n, i, j,sum1,len(result))
+                #print(n, i, j,sum1,len(result))
                 
         result.append((sum1))
-        print(len(result))
+        #print(len(result))
         sum1 = 0
         row=0
         n += 1
@@ -54,10 +54,10 @@ def hourglassSum(arr):
             flag = flag + 1
             j= flag
             i = i-2
-            print("yes")
+            #print("yes")
             
-    print(max(result))        
-    #return yy
+    #print(max(result))        
+    return max(result)
 
 if __name__ == '__main__':
     #fptr = open(os.environ['OUTPUT_PATH'], 'w')
